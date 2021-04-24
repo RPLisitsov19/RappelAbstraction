@@ -28,6 +28,12 @@ nav ul{
     margin-right: 20px;
 }
 
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
 nav ul li a{
     color:black;
     font-size: 17px;
@@ -68,9 +74,13 @@ a:nth-child(4)
     width: 80px;
     height: 67px;
     margin: -60px 0 0 -280;
-}
+  }
+
 
   /*comment*/
+
+
+
 
 .form{
     width: 440px;
