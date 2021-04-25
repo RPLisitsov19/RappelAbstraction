@@ -1,12 +1,12 @@
 .form{
     width: 840px;
-    margin-left: 480px;
+    margin-left: 470px;
     padding: 85px;
     left: 30%;
 }
 
-label{
-    color: white;
+#submitForm{
+    padding-top: 15%;
 }
 
 ::placeholder{
@@ -24,6 +24,10 @@ input[type=email]{
     border: 0;
 }
 
+input[type=email]:hover{
+    border: 2px solid blue;
+}
+
 input[type=password] {
     color:white;
     border-radius: 10px;
@@ -33,6 +37,10 @@ input[type=password] {
     color:green;
     margin-top: 50px;
     border: 0;
+}
+
+input[type=password]:hover {
+    border: 2px solid blue;
 }
 
 input[type=submit] {
@@ -83,7 +91,7 @@ input[type=reset]:hover {
 #main{
     height: 490px;
     width: 350px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color:rgb(187, 44, 44);
     text-align: center;
     margin-top: 75px;

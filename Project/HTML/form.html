@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="../images/ikon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <link rel="stylesheet" type="text/css" href="../CSS/log-in.css">
+    <script src="../Js/app.js"></script>
 
 <title>Log in</title>
 </head>
@@ -25,7 +26,7 @@
 
     </nav>
 
-        <form class="form">
+        <!--<form class="form">
             <div id="main">
             <br>
             <h1>Log in</h1>
@@ -45,7 +46,42 @@
                 </i>    
             </div>
           </div>
-        </form>
+        </form>-->
+
+
+        <div id="submitForm">
+            <form onsubmit="return submitForm()">
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" required><br>
+
+                <label for="coords">GPS Coordinates:</label><br>
+                <input type="text" id="coords" name="coords" required><br>
+
+                <label for="accident">Type of accident</label><br>
+
+                <input type="radio" id="fire" name="accident" value="Fire" required>
+                <label for="fire">Fire</label><br>
+
+                <input type="radio" id="crash" name="accident" value="Traffic collision" required>
+                <label for="crash">Traffic collision</label><br>
+
+                <input type="radio" id="flood" name="accident" value="Flooding" required>
+                <label for="flood">Flooding</label><br>
+
+                <input type="radio" id="chemical" name="accident" value="Chemical spill" required>
+                <label for="chemical">Chemical spill</label><br>
+
+                <input type="radio" id="tech" name="accident" value="Technical rescue" required>
+                <label for="tech">Technical rescue</label><br>
+            
+                <input type="submit" value="submit">
+            </form>
+        </div>
+          <p id="paragraph">Your support ticket:</p>
+
    
 </body>
 
