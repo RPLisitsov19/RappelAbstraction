@@ -1,0 +1,9 @@
+#mainDiv{
+    width: 800px;
+    height: 1000px;
+    background-color: gray;
+    margin-left: 370px;
+}
+#notDiv{
+    height:100px;
+}
