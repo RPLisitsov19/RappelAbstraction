@@ -1,6 +1,6 @@
 .form{
     width: 840px;
-    margin-left: 470px;
+    margin-left: 480px;
     padding: 85px;
     left: 30%;
 }
@@ -24,10 +24,6 @@ input[type=email]{
     border: 0;
 }
 
-input[type=email]:hover{
-    border: 2px solid blue;
-}
-
 input[type=password] {
     color:white;
     border-radius: 10px;
@@ -37,10 +33,6 @@ input[type=password] {
     color:green;
     margin-top: 50px;
     border: 0;
-}
-
-input[type=password]:hover {
-    border: 2px solid blue;
 }
 
 input[type=submit] {
@@ -91,7 +83,7 @@ input[type=reset]:hover {
 #main{
     height: 490px;
     width: 350px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color:rgb(187, 44, 44);
     text-align: center;
     margin-top: 75px;
