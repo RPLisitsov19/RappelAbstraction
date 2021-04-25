@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
+    background-color: gray;
 }
 
 a:hover{
@@ -15,7 +16,7 @@ nav
 {
     position: fixed;
     background-color: red;
-    width:100%;
+    width:99%;
     height: 45px;
     border-radius:8px;
     font-size:0;
@@ -51,20 +52,6 @@ a:nth-child(1)
     width:190px;
 }
 
-a:nth-child(2)
-{
-    width:180px;
-}
-
-a:nth-child(3)
-{
-    width:180px;
-}
-
-a:nth-child(4)
-{
-    width:180px;
-}
 
 #ikonka{
     position: fixed;
